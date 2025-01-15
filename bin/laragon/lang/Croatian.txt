@@ -1,0 +1,292 @@
+--------------------------------------------------------
+version: 3.5
+author: Danijel Mamic
+date: 202501015
+--------------------------------------------------------
+# Glavno sučelje
+100 = Pokreni sve
+101 = Web
+102 = Baze podataka
+103 = Terminal
+104 = Korijenska mapa
+105 = Stani
+106 = Zaustavljanje...
+107 = Osvježi
+108 = Trčanje
+109 = Verzija
+110 = Omogućeno
+111 = Zaustavi sve
+112 = Zatvori
+113 = Minimiziraj
+114 = Maksimiziraj
+115 = Da
+116 = Ne
+117 = Odustani
+118 = OK
+119 = Uključeno
+120 = Isključeno
+121 = Izbornik
+122 = Ako imate pitanja, uvijek me možete kontaktirati!
+
+# Jelovnik
+199 = www
+200 = Alati
+201 = Put ​​sustava
+202 = Preuzimanje datoteka
+203 = Kreiraj projekt
+204 = Zamijeni projekt
+205 = Stvori bazu podataka
+206 = Promjena root lozinke (root)
+207 = Hvatač pošte
+208 = Pogledaj najnoviju e-poštu
+209 = Otvori mapu e-pošte
+210 = Dobiti sendmail_path
+211 = Postavke
+212 = Pošiljatelj e-pošte
+213 = Proširenja
+214 = Webmaster
+215 = prijava
+216 = Postavke
+217 = Izlaz
+218 = Naziv projekta
+
+
+# Nastavite
+300 = Općenito
+301 = Usluge && Port
+310 = Pokreni Laragon pri pokretanju Windowsa
+311 = Automatski pokreni Laragon kada se Windows pokrene
+312 = Izvođenje minimizirano
+
+# \n za novi red
+313 = Minimiziraj Laragon na programskoj traci.\nLijevi klik na Laragon ikonu na programskoj traci otvara Laragon
+314 = Pokreni sve automatski
+315 = Automatski pokreni sve odabrane usluge kada se Laragon pokrene
+316 = Jezik
+
+317 = Korijenska mapa
+318 = Kliknite za promjenu korijenske mape
+319 = Mapa podataka
+320 = Kliknite za promjenu mape MySQL podataka
+
+322 = Automatski virtualni hostovi
+323 = Jednostavno stavite mapu u korijensku mapu i ponovno pokrenite Apache. Laragon će automatski stvoriti odgovarajući hostname u host datoteci iu Apacheovim virtualnim hostovima.
+
+# %s za rezervirano mjesto niza
+324 = Ime glavnog računala
+325 = Format naziva glavnog računala.\nPrim. ako je naziv vašeg projekta %s
+
+
+328 = Napredno
+329 = Kada pokrenete funkciju mail(), Laragon će prikazati generirane informacije o e-pošti u malom prozoru u donjem desnom kutu zaslona.
+330 = Prozor će se prikazati u
+331 = Ova značajka vam pomaže da brzo pregledate sadržaj svoje e-pošte.\nTakođer možete vidjeti sadržaj svoje posljednje e-pošte u bilo koje vrijeme u:\nIzbornik > PHP > Hvatač pošte
+
+340 = Gmail adresa
+341 = Gmail lozinka
+342 = Testirajte slanje e-pošte
+343 = Vaša lozinka za Gmail bit će šifrirana i zaštićena od znatiželjnih očiju.\nAko je usluga omogućena, možete jednostavno poslati svoju e-poštu na Internet.\nU PHP-u napišite redak:
+
+
+# Analizator pošte
+350 = Analizator e-pošte
+351 = Pošalji probnu e-poštu na
+352 = Ponovno testiranje
+353 = Ponovno pošalji e-poštu. Možete unijeti drugu adresu e-pošte za testiranje.
+354 = Zatvori
+
+
+# System tray
+400 = Laragon je ovdje minimiziran.
+401 = Prebačeno na projekt:
+402 = Baza podataka stvorena!
+403 = MySQL root lozinka je uspješno promijenjena!
+404 = Apache ponovno učitan!
+405 = Neispravna staza sustava!
+406 = Otkriven novi projekt!\nLaragon će pokrenuti Node.js i stvoriti virtualne hostove!
+
+
+# Savjet
+500 = Online pomoć
+501 = Lijevi klik: Laragon - Desni klik: Jelovnik
+502 = Početna stranica
+503 = Upravljanje bazom podataka
+504 = Otvaranje naredbenog retka (prečac: CTRL+ALT+T)
+505 = Laragon će pokrenuti Node.js i stvoriti virtualne hostove.\nAko želite koristiti ovu značajku bez Node.js:\nPokrenite Laragon kao administrator.
+506 = Korijenska mapa
+
+# Brzo izradite web stranicu/projekt
+600 = Stvaranje
+601 = Stvoreno
+602 = Preuzimanje
+603 = Preuzeto
+604 = Ekstrakiram
+605 = Izdvojeno
+606 = Stvoren je dobar URL
+607 = Brza primjena
+608 = Naziv web stranice
+609 = Unesite naziv projekta!
+610 = %s stvoreno!
+611 = Nije moguće stvoriti %s. Razlog: %s
+612 = Istraži
+613 = Kliknite i otvorit će se mapa projekta
+614 = Kliknite za posjet web stranici
+
+
+
+# Poruke
+700 = sendmail_path kopiran u međuspremnik!
+701 = Ova značajka nije dostupna na vašem računalu!
+702 = Prvo pokrenite %s!
+703 = Ime nije važeće!
+704 = Ova mapa ne sadrži važeći Laravel projekt!
+705 = Molimo pokrenite PHP poslužitelj!
+706 = Idite na Izbornik > Postavke > Usluge && Portovi i omogućite PHP poslužitelj
+707 = Projekt već postoji!
+708 = Ako stvarno želite stvoriti projekt, izbrišite mapu i pokušajte ponovno.
+709 = Nema mape!
+710 = Nema datoteke!
+711 = %s nije pokrenut. Prvo pokrenite Redis poslužitelj!
+712 = Nemojte koristiti razmake u instalacijskoj mapi Laragona (kako biste izbjegli moguće probleme)!
+713 = Usluga %s nije pokrenuta, ali radi u drugom procesu.
+714 = Molimo zaustavite svoju trenutnu WAMP komponentu, inače će Laragon biti nestabilan.
+715 = Put ​​procesa sustava:
+
+# Nadajmo se da ovo nikada nećete vidjeti :)
+716 = O ne, Laragon je naišao na pogreške!
+717 = Nije moguće stvoriti bazu podataka %s. Razlog: %s
+718 = Nije moguće promijeniti MySQL root lozinku. Razlog: %s
+719 = Morate navesti valjanu Gmail adresu!
+720 = Nije moguće stvoriti prečac u mapi za pokretanje!
+721 = Prečac se ne može izbrisati iz mape za pokretanje!
+722 = Nevažeći format! Mora se kompajlirati na temelju uzorka naziva projekta {name}.xxx!
+723 = Nevažeći format! Ime glavnog računala nije valjano!
+724 = Neispravna mapa MySQL podataka!
+725 = Morate omogućiti Apache i MySQL usluge u Izborniku > Postavke > Usluge && Portovi!
+
+# Kada Laragon ne može modificirati host datoteku
+726 = Greška! Vaš sustav vas sprječava da mijenjate host datoteku.\nProvjerite svoj antivirusni program, dopuštenja na kartici Sigurnost i provjerite je li datoteka postavljena samo za čitanje.\nLaragon će privremeno onemogućiti značajku "Automatic Virtual Hosts"!
+727 = Kako biste iskoristili ovu značajku, možete pokušati sljedeće:\n1. Otvorite mapu: %s\drivers\etc\n2. Desnom tipkom miša kliknite datoteku hosts i poništite okvir "Samo za čitanje".
+728 = Napomena: Trenutna dopuštenja za datoteku domaćina:
+
+# Host datoteka je postavljena samo za čitanje
+729 = Samo za čitanje
+
+# Dopuštenje za pisanje na kartici Sigurnost
+730 = Sigurnost > Pisanje
+
+
+# MySQL
+800 = Naziv baze podataka
+801 = Nova lozinka
+802 = Trenutna lozinka
+
+
+
+# Verzija 2
+219 = Ngrok
+220 = Dijeljenje
+221 = Ngrok poveznica kopirana u međuspremnik!
+222 = Ngrok tunel je spreman!
+223 = Kliknite za ručno uređivanje host datoteke kao administrator.
+224 = započeto
+226 = Raspakiranje
+227 = Otpakirano
+228 = nevažeći format
+229 = Pričekajte da se ekstrakcija završi
+230 = Pogrešna veza
+231 = Došlo je do pogreške tijekom preuzimanja. Molimo pokušajte ponovo!
+232 = Došlo je do pogreške! Možda vaša veza za preuzimanje nije točna.
+233 = Provjerite svoju vezu i pokušajte ponovno.
+234 = Posjet web stranici
+235 = Zatvorite i posjetite web stranicu
+236 = Uredi
+237 = Zamijeni korijensku mapu
+238 = Odaberite drugo
+239 = Baza podataka već postoji!
+240 = Ostavite prazno ako je nepoznato
+241 = Apache SSL port je onemogućen prema zadanim postavkama. Provjerite postavke i omogućite ih.
+242 = SSL certifikat stvoren!
+243 = Prvo morate kliknuti [%s]!
+244 = Automatski kreiraj bazu podataka
+245 = Kako prisiliti Wordpress da koristi relativne URL-ove
+246 = Lijevi klik
+247 = Desni klik
+248 = Laragon instalacijska mapa
+249 = Izbriši sve [automatski]
+250 = Datoteka postavki
+251 = Datoteka za pokretanje
+252 = Kako dodati drugu verziju %s?
+253 = Laragon već radi!
+
+
+# Resetirajte i generirajte nasumičnu root lozinku (root)
+803 = Ponovno postavite i generirajte nasumičnu root lozinku
+804 = Problem možete riješiti poništavanjem MySQL root lozinke na
+805 = Otkrij radi li MySQL
+806 = %s radi s PID-om %d
+807 = Pronađen jedan proces
+808 = Prvo morate zaustaviti MySQL!
+
+810 = Pokrenite MySQL poslužitelj s opcijom %s
+811 = Poništavanje root lozinke i generiranje nasumične lozinke
+812 = Resetiraj i stvori MySQL root lozinku!
+813 = Kopirano u međuspremnik: %s
+814 = Došlo je do greške! %s
+815 = Zaustavljanje MySQL - PID %d
+816 = Nije moguće zaustaviti trenutno izvršavanje MySQL - PID %d
+817 = Možete ga pokušati resetirati ručno: %s
+818 = Gotovo
+
+
+# Kontekstualni izbornik Windows Explorera - && nije greška pri upisu
+830 = Kontekstni izbornik desnom tipkom miša
+831 = Dodaj Sublime Text && Terminal
+832 = Ukloni Sublime Text && Terminal
+833 = Uredi uzvišenim tekstom
+834 = Otvori mapu u Sublime Textu
+836 = Pokrenite Laragon kao administrator i pokušajte ponovno!
+
+
+# Postavke
+900 = Laragon radi vrlo brzo i ima vrlo malu upotrebu memorije (<4 MB)
+901 = Vaša će aplikacija dobiti lijep URL ---> http://app.test
+902 = Dodajte Sublime Text && Terminal kontekstualnom izborniku desnog klika
+903 = Brzi načini za otvaranje uređivača teksta i naredbenog retka
+904 = Pogledaj datoteku PROČITAJ ME
+905 = Pokreni Laragon
+
+# SSL
+906 = Automatski generirani SSL certifikati
+
+# Verzija 3
+140 = Inicijalizacija podataka...
+141 = Podaci se ne mogu inicijalizirati, pokušajte ponovo!
+142 = Regija
+150 = Dodaj Laragon na put sustava
+151 = Ukloni Laragon sa putanje sustava
+152 = Uređivanje putanje sustava
+153 = Laragon je dodan na put sustava - možda ćete se morati odjaviti i ponovno prijaviti da vidite promjene.
+154 = Laragon je uklonjen sa sistemske staze
+155 = Zatvori sve
+156 = Automatski pokreni
+157 = Zaustavljanje usluga...
+158 = Pomoć
+
+# Verzija 3.1.3
+159 = Automatski generirani QR kod
+
+# Verzija 3.3.1
+160 = SSL je omogućen. Kliknite da biste ga onemogućili.
+161 = Dodaj "laragon.crt" u Trust Store
+162 = Upravitelj certifikata
+163 = Brze postavke
+164 = Kako urediti "%s"
+165 = Kako dodati Xdebug u Laragon
+166 = Zamjenski DNS
+167 = Što je ovo?
+
+# Verzija 3.5
+920 = Klon
+921 = Odaberite projekt za kloniranje
+922 = Baza podataka klonirana!
