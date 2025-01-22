@@ -1,7 +1,7 @@
 --------------------------------------------------------
 version: 3.5
 author: Danijel Mamic
-date: 202501015
+date: 20250121
 --------------------------------------------------------
 # Glavno sučelje
 100 = Pokreni sve
@@ -28,7 +28,7 @@ date: 202501015
 121 = Izbornik
 122 = Ako imate pitanja, uvijek me možete kontaktirati!
 
-# Jelovnik
+# Izbornik
 199 = www
 200 = Alati
 201 = Put ​​sustava
